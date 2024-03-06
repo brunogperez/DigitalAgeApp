@@ -1,6 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
-import NavBar from './components/NavBar/index.jsx'
+import './App.css'
+import NavBar from './components/NavBar/NavBar.jsx'
 
 function App() {
   return (
@@ -8,4 +7,4 @@ function App() {
   )
 }
 
-export default App;
+export default App
