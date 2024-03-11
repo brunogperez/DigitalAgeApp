@@ -1,9 +1,13 @@
 import './App.css'
 import NavBar from './components/NavBar/NavBar.jsx'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer.jsx'
 
-function App() {
+export const App = () => {
   return (
-    <NavBar />
+    <>
+      <NavBar />
+      <ItemListContainer />
+    </>
   )
 }
 
